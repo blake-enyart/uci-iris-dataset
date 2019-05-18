@@ -1,0 +1,2 @@
+class Iris < ApplicationRecord
+end
