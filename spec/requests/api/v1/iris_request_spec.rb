@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'Irises Internal API', type: :request do
   it 'sends a list of irises' do
-
+    
     get '/api/v1/irises'
 
     expect(response).to be_successful
