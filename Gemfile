@@ -41,6 +41,7 @@ gem 'factory_bot_rails'
 gem 'faker'
 gem 'faraday'
 gem 'figaro'
+gem 'webpacker', '~> 4.x'
 
 group :development, :test do
   gem 'awesome_print'
