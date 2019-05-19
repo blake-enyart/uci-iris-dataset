@@ -1,5 +1,5 @@
 class Api::V1::IrisesController < ApplicationController
   def index
-    render json: Iris.all
+    render json: IrisSerializer.new(Iris.all)
   end
 end
