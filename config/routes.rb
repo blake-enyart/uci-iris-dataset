@@ -10,5 +10,5 @@ Rails.application.routes.draw do
     end
   end
 
-  get '/uci_services', to: 'data_queries/irises#index', as: :uci_irises_dataset
+  post '/uci_services', to: 'data_queries/irises#create', as: :uci_irises_dataset
 end
