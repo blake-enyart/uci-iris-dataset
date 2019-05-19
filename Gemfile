@@ -40,6 +40,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'factory_bot_rails'
 gem 'faker'
 gem 'faraday'
+gem 'fast_jsonapi'
 gem 'figaro'
 gem 'webpacker', '~> 4.x'
 
