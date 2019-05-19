@@ -1,9 +1,9 @@
 FactoryBot.define do
-  factory :iri, class: 'Iris' do
-    sepal_length { 1.5 }
-    sepal_width { 1.5 }
-    petal_length { 1.5 }
-    petal_width { 1.5 }
-    class_type { "MyString" }
+  factory :iris do
+    sequence(:sepal_length) { |n| n * 1.5 }
+    sequence(:sepal_width) { |n| n * 1.5 }
+    sequence(:petal_length) { |n| n * 1.5 }
+    sequence(:petal_width) { |n| n * 1.5 }
+    class_type { Faker::Creature::Animal.name }
   end
 end
